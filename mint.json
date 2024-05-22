@@ -1,0 +1,101 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Vantage",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#ad4dd6",
+    "light": "#D676FF",
+    "dark": "#ad4dd6",
+    "background": {
+      "light": "#FDFCFD"
+    }
+  },
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://console.vantage.sh/signup"
+  },
+  "topbarLinks": [
+    {
+      "name": "Pricing",
+      "url": "https://www.vantage.sh/pricing"
+    },
+    {
+      "name": "Login",
+      "url": "https://console.vantage.sh/login"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    },
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    },
+    {
+      "name": "Cloud Cost Handbook",
+      "url": "handbook"
+    }
+  ],
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "introduction",
+        "quickstart"
+      ]
+    },
+    {
+      "group": "Account and Security",
+      "pages": [
+        "security",
+        "account-settings",
+        "single-sign-on"
+      ]
+    },
+    {
+      "group": "Changelog",
+      "pages": [
+        "changelog/changelog"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api-reference/introduction",
+        {
+          "group": "Workspaces",
+          "pages": [
+            "api-reference/workspaces"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Cloud Cost Handbook",
+      "pages": [
+        "handbook/overview"
+      ]
+    },
+    {
+      "group": "Tools",
+      "pages": [
+        "handbook/cost-reports",
+        "handbook/instances"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/JoinVantage",
+    "linkedin": "https://www.linkedin.com/company/vantage-sh/"
+  }
+}
